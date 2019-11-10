@@ -1,6 +1,6 @@
 <?php
 
-$tasks = $database->selectAll('test02');
+$tasks = $app['database']->selectAll('test02');
 
 
 
