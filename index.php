@@ -1,10 +1,14 @@
 <?php
 
-$database = require 'bootstrap.php';
+$database = require 'core/bootstrap.php';
+
+$router = new Router;
+
+require 'routes.php';
+
+//echo '<pre>';print_r(trim($_SERVER['REQUEST_URI']));die;
+
+require $router->direct(trim($_SERVER['REQUEST_URI'], '/'));
 
 
-$tasks = $database->selectAll('test02');
-
-
-
-require 'views/index.view.php';
+//$_SERVER esta buscando somente '/' e nao o uri

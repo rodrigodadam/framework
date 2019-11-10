@@ -1,3 +1,3 @@
 <?php
 
-require 'about-culture.php';
+require 'views/about-culture.view.php';
