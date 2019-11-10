@@ -1,7 +1,7 @@
 <?php
 
 $config = require 'config.php';
-require 'database/Connector.php';
-require 'database/QueryBuilder.php';
+require 'core/database/Connector.php';
+require 'core/database/QueryBuilder.php';
 
 return new QueryBuilder(Connector::make($config['database']));

@@ -7,4 +7,4 @@ $tasks = $query->selectAll('test02');
 
 
 
-require 'index.view.php';
+require 'views/index.view.php';

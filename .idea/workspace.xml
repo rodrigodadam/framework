@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1744e82e-afbd-4177-bb4d-39d3b5352b7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/Connector.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/Connector.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/Connector.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/database/Connector.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/QueryBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/database/QueryBuilder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +50,24 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views" />
+      <recent name="$PROJECT_DIR$/core" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
-        <serviceView />
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -72,6 +86,7 @@
       <workItem from="1573075700644" duration="48000" />
       <workItem from="1573075758510" duration="21414000" />
       <workItem from="1573155261714" duration="1393000" />
+      <workItem from="1573388707791" duration="696000" />
     </task>
     <servers />
   </component>
@@ -91,6 +106,10 @@
       <screen x="0" y="27" width="1366" height="704" />
     </state>
     <state x="416" y="127" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1366.704/1366.0.1920.1080@0.27.1366.704" timestamp="1573151445809" />
+    <state x="419" y="234" width="518" height="288" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1573388927041">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state x="419" y="234" width="518" height="288" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1366.704/1366.0.1920.1080@0.27.1366.704" timestamp="1573388927041" />
     <state x="266" y="124" width="824" height="508" key="IDE.errors.dialog" timestamp="1573153731311">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
@@ -99,10 +118,10 @@
       <screen x="0" y="27" width="1366" height="704" />
     </state>
     <state x="485" y="191" width="433" height="373" key="NewPhpClassDialog/0.27.1366.704/1366.0.1920.1080@0.27.1366.704" timestamp="1573145394768" />
-    <state x="478" y="303" width="399" height="149" key="NewPhpFileDialog" timestamp="1573155079572">
+    <state x="478" y="303" width="399" height="149" key="NewPhpFileDialog" timestamp="1573389349298">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state x="478" y="303" width="399" height="149" key="NewPhpFileDialog/0.27.1366.704/1366.0.1920.1080@0.27.1366.704" timestamp="1573155079572" />
+    <state x="478" y="303" width="399" height="149" key="NewPhpFileDialog/0.27.1366.704/1366.0.1920.1080@0.27.1366.704" timestamp="1573389349298" />
     <state x="172" y="27" width="1012" height="704" key="SettingsEditor" timestamp="1573076015054">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
@@ -111,5 +130,9 @@
       <screen x="0" y="27" width="1366" height="704" />
     </state>
     <state x="451" y="298" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1366.704/1366.0.1920.1080@0.27.1366.704" timestamp="1573156277816" />
+    <state x="346" y="52" key="search.everywhere.popup" timestamp="1573388937042">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state x="346" y="52" key="search.everywhere.popup/0.27.1366.704/1366.0.1920.1080@0.27.1366.704" timestamp="1573388937042" />
   </component>
 </project>
