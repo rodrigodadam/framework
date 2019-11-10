@@ -1,9 +1,9 @@
 <?php
 
-$query = require 'bootstrap.php';
+$database = require 'bootstrap.php';
 
 
-$tasks = $query->selectAll('test02');
+$tasks = $database->selectAll('test02');
 
 
 
