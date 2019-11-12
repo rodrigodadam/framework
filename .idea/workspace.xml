@@ -3,18 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1744e82e-afbd-4177-bb4d-39d3b5352b7d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/about-culture.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/about.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/add-names.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/contact.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/PagesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/PagesController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +91,7 @@
       <workItem from="1573075758510" duration="21414000" />
       <workItem from="1573155261714" duration="1393000" />
       <workItem from="1573388707791" duration="9378000" />
-      <workItem from="1573567880730" duration="19000" />
+      <workItem from="1573567880730" duration="2245000" />
     </task>
     <servers />
   </component>
