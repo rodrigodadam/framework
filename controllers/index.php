@@ -1,6 +1,6 @@
 <?php
 
-$users = $app['database']->selectAll('user');
+$users = App::get('database')->selectAll('user');
 
 
 
