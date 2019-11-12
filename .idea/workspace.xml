@@ -2,19 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1744e82e-afbd-4177-bb4d-39d3b5352b7d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/about-culture.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/about.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/add-names.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/contact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Router.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/bootstrap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
@@ -30,6 +38,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
   </component>
   <component name="ProjectId" id="1TG8AOvsG8l7NTQad3vla99CpT7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -89,6 +102,7 @@
       <workItem from="1573075758510" duration="21414000" />
       <workItem from="1573155261714" duration="1393000" />
       <workItem from="1573388707791" duration="9378000" />
+      <workItem from="1573567880730" duration="19000" />
     </task>
     <servers />
   </component>
@@ -96,34 +110,42 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="278" y="39" width="800" height="677" key="#Composer" timestamp="1573567898911">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state x="278" y="39" width="800" height="677" key="#Composer/0.27.1366.704/1366.0.1920.1080@0.27.1366.704" timestamp="1573567898911" />
     <state x="141" y="36" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1573075932949">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
     <state x="141" y="36" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.704/1366.0.1920.1080@0.27.1366.704" timestamp="1573075932949" />
-    <state x="366" y="106" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1573074933068">
+    <state x="366" y="106" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1573567866835">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state x="366" y="106" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.27.1366.704/1366.0.1920.1080@0.27.1366.704" timestamp="1573074933068" />
+    <state x="366" y="106" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.27.1366.704/1366.0.1920.1080@0.27.1366.704" timestamp="1573567866835" />
+    <state x="435" y="27" width="476" height="704" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1573559457903">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state x="435" y="27" width="476" height="704" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1366.704/1366.0.1920.1080@0.27.1366.704" timestamp="1573559457903" />
     <state x="416" y="127" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1573151445809">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
     <state x="416" y="127" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1366.704/1366.0.1920.1080@0.27.1366.704" timestamp="1573151445809" />
-    <state x="419" y="234" width="518" height="288" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1573388927041">
+    <state x="419" y="234" width="518" height="288" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1573553206031">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state x="419" y="234" width="518" height="288" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1366.704/1366.0.1920.1080@0.27.1366.704" timestamp="1573388927041" />
-    <state x="266" y="124" width="824" height="508" key="IDE.errors.dialog" timestamp="1573398567166">
+    <state x="419" y="234" width="518" height="288" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1366.704/1366.0.1920.1080@0.27.1366.704" timestamp="1573553206031" />
+    <state x="266" y="124" width="824" height="520" key="IDE.errors.dialog" timestamp="1573559894721">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state x="266" y="124" width="824" height="508" key="IDE.errors.dialog/0.27.1366.704/1366.0.1920.1080@0.27.1366.704" timestamp="1573398567165" />
-    <state x="485" y="191" width="433" height="373" key="NewPhpClassDialog" timestamp="1573551435733">
+    <state x="266" y="124" width="824" height="520" key="IDE.errors.dialog/0.27.1366.704/1366.0.1920.1080@0.27.1366.704" timestamp="1573559894721" />
+    <state x="485" y="191" width="433" height="373" key="NewPhpClassDialog" timestamp="1573556282491">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state x="485" y="191" width="433" height="373" key="NewPhpClassDialog/0.27.1366.704/1366.0.1920.1080@0.27.1366.704" timestamp="1573551435733" />
-    <state x="478" y="303" width="399" height="149" key="NewPhpFileDialog" timestamp="1573468644970">
+    <state x="485" y="191" width="433" height="373" key="NewPhpClassDialog/0.27.1366.704/1366.0.1920.1080@0.27.1366.704" timestamp="1573556282491" />
+    <state x="478" y="303" width="399" height="149" key="NewPhpFileDialog" timestamp="1573556407990">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state x="478" y="303" width="399" height="149" key="NewPhpFileDialog/0.27.1366.704/1366.0.1920.1080@0.27.1366.704" timestamp="1573468644970" />
+    <state x="478" y="303" width="399" height="149" key="NewPhpFileDialog/0.27.1366.704/1366.0.1920.1080@0.27.1366.704" timestamp="1573556407990" />
     <state x="172" y="27" width="1012" height="704" key="SettingsEditor" timestamp="1573076015054">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
